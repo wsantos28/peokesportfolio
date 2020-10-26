@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Meu Portfólio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="page.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="animation.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" href="./logo_aba.png">
+	<script src="https://use.fontawesome.com/2c342b0c9e.js"></script>
+</head>
+<body>
+
+	<nav id="menu">
+	<header class="cabecalho">
+		<h1 class="logo">
+			<a href="index.html" title="Início"></a>
+		</h1>
+	</header>
+		<ul>
+			<li><a href="#inicio"> INÍCIO </a></li>
+			<li><a href="#sobre"> SOBRE MIM </a></li>
+			<li><a href="#portfolio"> PORTFÓLIO </a></li>
+			<li><a href="#contato"> CONTATO </a></li>
+		</ul>
+		<div class="social-icons">
+			<a href="https://www.linkedin.com/in/wsantos28/" class="btn-linkedin" ><i class="fa fa-linkedin"></i></a>
+			<a href="https://www.youtube.com/peokestv" class="btn-youtube" ><i class="fa fa-youtube-play"></i></a>
+			<a href="https://www.instagram.com/w_santos28/" class="btn-instagram" ><i class="fa fa-instagram"></i></a>
+			<a href="https://vimeo.com/wsantos28" class="btn-vimeo" ><i class="fa fa-vimeo"></i></a>
+		</div>
+	</nav>
+
+	<main class="principal1" id="inicio">
+		<article class="inicio-pagina">
+			<h2>
+				<img src="imagem-inicial.png">
+			</h2>
+		</article>
+	</main>
+
+	<main class="principal2" id="sobre">
+		<article class="sobre-mim">
+			<h2> SOBRE MIM </h2>
+			<img src="imagem_well.jpg" class="imagem">
+			<p> Olá, meu nome é Wellington Antonio Borges dos Santos. Estou na área da edição de vídeo a 7 anos. Porém, nunca efetivei meu trabalho para o lado profissional, pois eu o levava apenas como hobbie e não esperava nada em troca porque o simples ato de editar vídeos me facinava por sí só. Quando descobri que eu poderia ganhar dinheiro fazendo o que eu já amo, fez-me sentir ótimo, logo adentrei nessa nova fase da vida de braços abertos. Caso tenha interesse em um editor qualificado e que garante qualidade de feedback e de entrega de produto, clique em um dos links abaixo para entrar em contato.	
+		</article>
+	</main>
+
+	<main class="principal3" id="portfolio">
+		<article class="portfolio1">
+			<h2> PORTFÓLIO </h2>
+			<video controls class="video1">
+				<source src="video01.mp4" type="">
+			</video>
+			<video controls loop class="video1">
+				<source src="video02.mp4" type="">
+			</video>
+		</article>
+	</main>
+	
+	<div class="contato1" id="contato">
+	<h2> CONTATO </h2>
+	<form action="" method="post" enctype="multipart/form-data" class="formulario">
+		<div>
+			<label for="" class="label"> Insira seu nome: </label>
+			<input type="text" name="name" placeholder="Nome" required="required">
+		</div>
+
+		<div>
+			<label for="" class="label"> Insira seu e-mail: </label>
+			<input type="text" name="email" placeholder="E-mail" required="required">
+		</div>
+
+		<div>
+			<button type="submit" name="enviar" value="1">
+				ENVIAR
+			</button>
+		</div>
+	</form>
+	</div>
+
+</body>
+</html>

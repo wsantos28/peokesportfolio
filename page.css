@@ -1,0 +1,224 @@
+
+/* cabeçalho */
+
+.cabecalho {
+		float: left;
+}
+
+.logo a {
+	width: 153px;
+	height: 33px;
+	float: left;
+	background: url(./imagem-inicial.png) center center/cover no-repeat;
+	margin-right: 60px;
+}
+
+/* MENU */
+
+#menu {
+	width: 100%;
+	float: left;
+	background-color: #111;
+	padding: 14px 3%;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+#menu li {
+	float: left;
+	margin-top: 5px;
+
+}
+
+#menu li a {
+	color: #A1A1A1;
+	margin-left: 15px;
+	display: inline-flex;
+	transition: color 200ms, text-shadow 300ms;
+}
+
+#menu li a:hover {
+	color: #69B1ED;
+	text-shadow: 0px 0px 20px #69B1ED;
+
+}
+
+/* SOCIAL ICONS */
+
+.social-icons {
+	float: right;
+}
+
+.social-icons a {
+	float: left;
+	color: #fff;
+	margin-left: 15px;
+	transition: color .2s, transform .2s, background .5s, box-shadow .5s ;
+	background-color: #3F5982;
+	border-radius: 100%;
+	width: 35px;
+	height: 35px;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	font-size: 16px;
+	box-shadow: 0px 0px 0px none;
+}
+
+.social-icons a:hover {
+	background: #52BB88;
+	transform: scale(1.3) rotate(-30deg);
+}
+
+.btn-linkedin:hover {
+	color: #0e76a8;
+	font-size: 25px;
+	box-shadow: 0px 0px 6px #0e76a8;
+}
+
+.btn-youtube:hover {
+	color: #c4302b;
+	font-size: 25px;
+	box-shadow: 0px 0px 6px #c4302b;
+}
+
+.btn-instagram:hover {
+	color: #C13584;
+	font-size: 25px;
+	box-shadow: 0px 0px 6px #C13584;
+}
+
+.btn-vimeo:hover {
+	color: #add8e6;
+	font-size: 25px;
+	box-shadow: 0px 0px 6px #add8e6;
+}
+
+/* INÍCIO */
+
+.principal1 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding: 100px 8%;
+	background: url(./imagem-03.jpg) center center/ cover no-repeat fixed;
+	display: flex;
+	justify-content: center;
+}
+
+/* PARTE SOBRE MIM */
+
+.principal2 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding: 100px 8%;
+	background: url(./imagem-01.jpg) center center/ cover no-repeat fixed;
+}
+
+.sobre-mim {
+	width: 70%;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.sobre-mim h2 {
+	margin-right: 523px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	color: white;
+	font-weight: bold;
+	border: 1px white dotted;
+	padding: 4px;
+}
+
+.sobre-mim img {
+	width: 45%;
+	float: left;
+	border-radius: 50%;
+	margin: 0 15px 10px 0;
+}
+
+.sobre-mim p {
+	margin-top: 50px;
+	text-align: justify;
+	color: #CBCCCC;
+	font-size: 1em;
+}
+
+/* PARTE PORTFÓLIO */
+
+.principal3 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding: 200px 8%;
+	background: url(./imagem-02.jpg) center center/ cover no-repeat fixed;
+}
+
+.portfolio1 {
+	width: 100%;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.portfolio1 h2 {
+	margin-bottom: 15px;
+	margin-right: 100px;
+	color: white;
+	font-weight: bold;
+	animation: blur 1.2s ease-in;
+	float: right;
+	border: 1px white dotted;
+	padding: 4px;
+}
+
+.video1 {
+	margin-top: 50px;
+	margin-right: 20px;
+	border: 3px white solid;
+	width: 20vw;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	border-radius: 10px;
+}
+
+/* CONTATO */
+
+.contato1 {
+	background-color: black;
+	padding: 50px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.contato1 h2 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border: 1px white dotted;
+	margin: 0 565px 20px 550px;
+	padding: 4px;
+}
+
+.formulario {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.label {
+	color: white;
+}
+
+.formulario input, button{
+	border-radius: 10px;
+	margin: 0 30px 0 0;
+	padding: 10px;
+}
